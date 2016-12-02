@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="PagePointView">
+        <attr name="ppv_focusPointColor" format="color"/>
+        <attr name="ppv_unfocusPointColor" format="color"/>
+        <attr name="ppv_pointCount" format="integer"/>
+        <attr name="ppv_hasBorder" format="boolean"/>
+        <attr name="ppv_borderWidth" format="dimension" />
+        <attr name="ppv_pointRadius" format="dimension"/>
+
+    </declare-styleable>
+
+</resources>
