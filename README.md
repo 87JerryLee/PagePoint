@@ -5,7 +5,7 @@
 -----
 
 ### 演示
-![img](https://github.com/llj19900605/PagePoint/screenshots/demo.gif)
+![image](https://github.com/llj19900605/PagePoint/screenshots/demo.gif)
 
 ##代码参考
 ####在xml布局中引入'PagerPointView',然后设置一些属性
