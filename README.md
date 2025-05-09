@@ -4,8 +4,8 @@
 ### 演示
 ![image](https://github.com/llj19900605/PagePoint/raw/master/screenshots/demo.gif)
 
-##代码参考
-####在xml布局中引入'PagerPointView',然后设置一些属性：
+## 代码参考
+#### 在xml布局中引入'PagerPointView',然后设置一些属性：
 ```xml
 <com.jerry.pagepoint.PagePointView
         android:layout_width="wrap_content"
@@ -21,11 +21,11 @@
         android:id="@+id/point"
         />
 ```
-####在代码中给PagePointView设置ViewPager就行了
+#### 在代码中给PagePointView设置ViewPager就行了
 ```java
         ViewPager viewPager = (ViewPager) findViewById(R.id.viewPager);
         PagePointView point = (PagePointView) findViewById(R.id.point);
         viewPager.setAdapter(adapter);
         point.setViewPager(viewPager);
 ```
-###注意：在给PagePointView设置ViewPager之前先给ViewPager设置Adapter
+### 注意：在给PagePointView设置ViewPager之前先给ViewPager设置Adapter
